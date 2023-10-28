@@ -1,0 +1,50 @@
+baseurl = "http://www.example.com"
+title = "Cyber Locksmiths"
+theme = "hugo-coder"
+languagecode = "en"
+defaultcontentlanguage = "en"
+
+paginate = 20
+
+disqusShortname = "cyberlocksmiths"
+
+[markup.highlight]
+style = "github-dark"
+
+[params]
+  author = "jbx81"
+  info = "Diary of an Automotive Pentester"
+  description = "Diary of an Automotive Pentester"
+  keywords = "blog,hacking,cars,embedded,pentester,personal"
+  avatarurl = "images/avatar.jpg"
+  since = 2022
+  enableTwemoji = true
+  colorScheme = "auto"
+  hidecolorschemetoggle = false
+[taxonomies]
+  category = "categories"
+  series = "series"
+  tag = "tags"
+  author = "authors"
+
+# Social links
+[[params.social]]
+  name = "Github"
+  icon = "fa fa-github fa-2x"
+  weight = 1
+  url = "https://github.com/jbx81-1337/"
+[[params.social]]
+  name = "Twitter"
+  icon = "fa fa-twitter fa-2x"
+  weight = 3
+  url = "https://twitter.com/jbx81/"
+
+# Menu links
+[[menu.main]]
+  name = "Blog"
+  weight = 1
+  url  = "posts/"
+[[menu.main]]
+  name = "Whoami"
+  weight = 2
+  url = "whoami/"
