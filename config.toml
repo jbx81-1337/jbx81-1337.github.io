@@ -1,12 +1,10 @@
-baseurl = "http://www.example.com"
+baseurl = "https://jbx81-1337.github.io"
 title = "Cyber Locksmiths"
 theme = "hugo-coder"
 languagecode = "en"
 defaultcontentlanguage = "en"
 
 paginate = 20
-
-disqusShortname = "cyberlocksmiths"
 
 [markup.highlight]
 style = "github-dark"
