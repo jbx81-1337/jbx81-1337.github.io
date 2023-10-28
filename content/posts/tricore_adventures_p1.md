@@ -10,4 +10,4 @@ categories = []
 externalLink = ""
 series = ["tricore_adventures"]
 +++
-Coming soon!!!
+Coming soon!
